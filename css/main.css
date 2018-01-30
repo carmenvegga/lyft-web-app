@@ -9,6 +9,10 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.splash-view {
+
+}
+
 .bg-in {
   width: 100%;
   margin: 0 auto;
@@ -27,4 +31,15 @@ body {
 
 .btn-login {
   text-align: center;
+  border-bottom: 5px;
+}
+
+.btn-outline-primary {
+  text-transform: uppercase;
+  padding: 12px 25px;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.btn {
+  border: 2px solid;
 }
