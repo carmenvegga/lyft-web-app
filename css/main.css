@@ -42,4 +42,25 @@ body {
 }
 .btn {
   border: 2px solid;
+  margin-top: 15em;
+}
+
+.btn-link > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+/* estilos barra sign up*/
+.nav-signup {
+  background-color:  #f2c8dd;
+  color: #ffffff;
+  height: 10em;
+}
+.text-nav-signup {
+  color: #ef0076;
+  float: right;
+  text-align: center;
+}
+.home-view > a{
+  color: #ef0076;
 }

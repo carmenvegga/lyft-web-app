@@ -1,11 +1,11 @@
 $(document).ready(function() {
     setTimeout(function() {
-        $(".bg-out").fadeOut(1000);
-    },1000);
+        $(".bg-out").fadeOut(1500);
+    },500);
 
     setTimeout(function() {
-        $(".bg-in").fadeIn(1000);
-    },2000);
+        $(".bg-in").fadeIn(1500);
+    },1500);
 });
 
 
