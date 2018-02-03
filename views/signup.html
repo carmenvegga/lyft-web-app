@@ -6,48 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="../css/main.css">
-  <title>Document</title>
+  <title>signup</title>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <nav class="nav flex-column nav-signup">
-          <span class="home-view">
-          <a class="nav-link" href="../index.html"> < Home </a>
-          </span>
-          <div class="col text-nav-signup">
-            <h4>Sign up</h4>
-            <h5>Join now for free ride credit</h5>
-          </div>
-        </nav>
+  <div class="container">
+    <section>
+      <div class="row">
+        <div class="col">
+          <nav class="nav flex-column nav-signup">
+            <span class="home-view">
+              <a class="nav-link" href="../index.html">
+              <i class="ion-ios-arrow-left arrow-home"></i></a>
+            </span>
+            <div class="col text-nav-signup">
+              <h4 class="text-center font-weight-bold">Sign up</h4>
+              <h5 class="text-center">Join now for free ride credit</h5>
+            </div>
+          </nav>
+        </div>
       </div>
-    </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col"></div>
+        <div class="dropdown col-8">
+            <div class="row">
+              <!--
+              <div class="col">
+                <button class="btn btn-secondary dropdown-toggle flag-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <i class="fas fa-flag"></i>
+                </button>
+                  <div class="dropdown-menu flag-dropdown" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              -->
+              <div class="col">
+                <form>
+                  <label for="phonenum">Phone Number:</label><br/>
+                  <input id="phonenum" type="tel" required >
+                  <input type="submit" value="Submit">
+              </form>
+              </div>
+              </div>
+  </section>
   </div>
-  <section>
-    <div class="row justify-content-md-center">
-      <div class="col col-lg-1">
-        
-      </div>
-      <div class="col-md-auto">
-    <select name="country">
-      <option value="">Country...</option>
-      <option value="AR">Argentina</option>
-      <option value="AU">Australia</option>
-      <option value="FR">France</option>
-      <option value="MX">Mexico</option>
-      <option value="PE">Peru</option>
-    </select>
-
-</div>
-<div class="col col-lg-1">
-  Form
-</div>
-</div>
-</section>
-
 
   <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

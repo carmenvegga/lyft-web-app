@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
 }
@@ -40,10 +41,6 @@ body {
   border-color: #ffffff;
   color: #ffffff;
 }
-.btn {
-  border: 2px solid;
-  margin-top: 15em;
-}
 
 .btn-link > a {
   text-decoration: none;
@@ -52,15 +49,17 @@ body {
 }
 /* estilos barra sign up*/
 .nav-signup {
-  background-color:  #f2c8dd;
-  color: #ffffff;
+  background-color:  #e4e2e3;
   height: 10em;
 }
 .text-nav-signup {
-  color: #ef0076;
+  color:#c83f88;
   float: right;
-  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
 }
-.home-view > a{
-  color: #ef0076;
+
+.arrow-home {
+  font-size: 3em;
+  color: #c83f88;
 }
